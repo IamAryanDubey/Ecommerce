@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="entry.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Arey</title>
+</head>
+
+<body>
+    <header>
+        <div id="Navbar">
+            <h5 id="logo">Arey Industries</h5>
+            <div id="search"><input id="SearchBar" onkeyup="search()" placeholder=" 🔍  Search the product"></div>
+            <div class="right-menu">
+                <h5 class="menuunit">My Quotation</h5>
+                <h5 class="menuunit">My Orders</h5>
+                <div id="Menu" onclick="sidebar()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="hamburger" style="position: fixed;">
+        <h5 class="options">My Account</h5>
+        <h5 class="options">My Address</h5>
+        <h5 class="options">Previous purchases</h5>
+        <h5 class="options">Settings</h5>
+        <h5 class="options">Contact Us</h5>
+    </div>
+    <section id="accountsection">
+        <h5>Your firstname:</h5>
+        <input placeholder="First Name" type="text">
+        <h5>Your lastname:</h5>
+        <input placeholder="Last Name" type="text">
+        <h5>Phone number:</h5>
+        <input placeholder="Phone Number" type="number">
+        <h5>Account password:</h5>
+        <input placeholder="Your Password" type="password"><br>
+        <button>Submit</button>
+    </section>
+    <footer></footer>
+    <script src="homepage.js"></script>
+</body>
+</html>

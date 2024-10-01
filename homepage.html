@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Arey</title>
+</head>
+
+<body>
+    <header>
+        <div id="Navbar">
+            <h5 id="logo">Arey Industries</h5>
+            <div id="search"><input id="SearchBar" onkeyup="search()" placeholder=" 🔍  Search the product"></div>
+            <div class="right-menu">
+                <h5 class="menuunit">My Quotation</h5>
+                <h5 class="menuunit">My Orders</h5>
+                <div id="Menu" onclick="sidebar()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="sidebar">
+        <h5 class="options">My Account</h5>
+        <h5 class="options">My Address</h5>
+        <h5 class="options">Previous purchases</h5>
+        <h5 class="options">Settings</h5>
+        <h5 class="options">Contact Us</h5>
+    </div>
+    <section id="middlesection">
+        <div class="product-list" id="productlistings">
+            <section class="product">
+                <div class="productdetails">
+                    <h5>Nuts</h5>
+                    <h6>Product Details: Size, Weight</h6>
+                    <h6>Estimated Delivery Date</h6>
+                    <div class="sizeoption-container">
+                        <div class="sizeoption">2</div>
+                        <div class="sizeoption">2.2</div>
+                        <div class="sizeoption">2.4</div>
+                    </div>
+                </div>
+            </section>
+            <section class="product">
+                <div class="productdetails">
+                    <h5>Bolts</h5>
+                    <h6>Product Details: Size, Weight</h6>
+                    <h6>Estimated Delivery Date</h6>
+                    <div class="sizeoption-container">
+                        <div class="sizeoption">2</div>
+                        <div class="sizeoption">2.2</div>
+                        <div class="sizeoption">2.4</div>
+                    </div>
+                </div>
+            </section>
+            <section class="product">
+                <div class="productdetails">
+                    <h5>Product Name</h5>
+                    <h6>Product Details: Size, Weight</h6>
+                    <h6>Estimated Delivery Date</h6>
+                    <div class="sizeoption-container">
+                        <div class="sizeoption">2</div>
+                        <div class="sizeoption">2.2</div>
+                        <div class="sizeoption">2.4</div>
+                    </div>
+                </div>
+            </section>
+            <section class="product">
+                <div class="productdetails">
+                    <h5>Product Name</h5>
+                    <h6>Product Details: Size, Weight</h6>
+                    <h6>Estimated Delivery Date</h6>
+                    <div class="sizeoption-container">
+                        <div class="sizeoption">2</div>
+                        <div class="sizeoption">2.2</div>
+                        <div class="sizeoption">2.4</div>
+                    </div>
+                </div>
+            </section>
+            <section class="product">
+                <div class="productdetails">
+                    <h5>Product Name</h5>
+                    <h6>Product Details: Size, Weight</h6>
+                    <h6>Estimated Delivery Date</h6>
+                    <div class="sizeoption-container">
+                        <div class="sizeoption">2</div>
+                        <div class="sizeoption">2.2</div>
+                        <div class="sizeoption">2.4</div>
+                    </div>
+                </div>
+            </section>
+            <div id="cartcontainer">
+                <div id="Cart">
+                    <h3>Your Cart</h3>
+                    <h4>Product Qty</h4>
+                    <h6>item</h6>
+                    <h6>item</h6>
+                    <h6>item</h6>
+                    <h6>item</h6>
+                    <h5>Total = </h5>
+                    <h2>-------------------------</h2>
+                </div>
+            </div>
+            <div id="productvariety">
+                <div>
+                    <h4>Type of product</h4>
+                    <input type="radio" name="producttype" class="producttype"><label>Nuts</label><br>
+                    <input type="radio" name="producttype" class="producttype"><label>Screws</label><br>
+                    <input type="radio" name="producttype" class="producttype"><label>Rods</label><br>
+                    <input type="radio" name="producttype" class="producttype"><label>Bolts</label><br>
+                    <input type="radio" name="producttype" class="producttype"><label>Nuts</label><br>
+                    <input type="radio" name="producttype" class="producttype"><label>Nuts</label><br>
+                    <input type="radio" name="producttype" class="producttype"><label>Nuts</label><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+    <script src="homepage.js"></script>
+</body>
+
+</html>
