@@ -22,7 +22,7 @@ An e-commerce platform designed with a focus on responsive design, real-time pro
 Enjoy exploring the E-commerce platform! 🎉
 
 ## 🔧 Technologies Used
-- **Frontend:** React Native, HTML, CSS, JavaScript
+- **Frontend:** HTML, CSS, JavaScript
 - **Features:** Real-time product filtering, secure cart system, payment gateway
 
 Feel free to reach out if you have any questions or suggestions for improvement! 😊
